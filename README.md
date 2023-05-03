@@ -8,3 +8,5 @@ Dataset and detailed description can be found at https://github.com/mahnazkoupae
 The NLP_TransformerSummarizer_RichardAleksandra.ipnyb is the notebook defining the proposed solutionfor Transformer summarizer implementation. It defines methods to load the dataset, data preprocessing, model design and evaluation approach.
 Proposed model is summarizer made of T5 layer based encoder, with multihead attention and transformer layers. Decoder contains 6 Transformer layers. 
 Evaluation metrics attempted to be applied are ROUGE-1, ROUGE-2 and ROUGE-L.
+
+This repository does not contain the dataset. To make sure notebook runs, first download the dataset and make sure that the path to the dataset is defined properly.
